@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.first-section{
+    width: 90%;
+    height: auto;
+    background-color: #f8f8f8;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.top-text-box{
+    width: fit-content;
+    height: auto;
+}
+
+.top-text-box h1{
+    font-size: 1.2rem;
+    color: #23123d;
+}
+
+.create-button-box{
+    width: fit-content;
+    height: auto;
+}
+
+.create-button-box button{
+    background-color: #4c48f8;
+    color: #f8f8f8;
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.resources-section{
+    width: 90%;
+    height: auto;
+    background-color: #f8f8f8;
+    margin: 0 auto;
+    /* padding: 2rem; */
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 1.5rem;
+}
+
+.resource{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.2rem;
+    flex-grow: 1;
+    margin: 2rem;
+}
+
+.name-of-website-and-delete-icon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-of-website-and-delete-icon a{
+    text-decoration: none;
+    color: #2d1192;
+    font-weight: 700;
+}
+
+.name-of-website-and-delete-icon i{
+    color: #8f8f95;
+    cursor: pointer;
+}
+
+.description-of-website-container{
+    width: 100%;
+    height: auto;
+}
+
+.description-of-website-container p {
+    font-size: 0.9rem;
+    color: #8f8f95;
+}
+
+.modal-container{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.modal-container-visible{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+}
+
+.modal{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.close-icon-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.close-icon-box i{
+    cursor: pointer;
+}
+
+.modal-title-box{
+    width : 100%;
+    height:auto ;
+    padding: 1rem 0;
+}
+
+.modal-title-box h3{
+    font-size: 1.3rem;
+    text-align: center;
+    color: #171031;
+}
+
+.form-container{
+    width: 100%;
+    height: auto;
+}
+
+form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.input-group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+label{
+    font-size: 0.9rem;
+    color: #23123d;
+}
+
+input{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    border: 1px solid #e3e3e3;
+    font-size : 0.85rem
+}
+
+textarea{
+    width: 100%;
+    height: 5rem;
+    padding:1rem 0.5rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    border: 1px solid #e3e3e3;
+}
+
+.form-button{
+    width: 100%;
+    height: auto;
+    background-color: #4c48f8;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}

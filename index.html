@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource Directory</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <!-- First Section -->
+    <div class="first-section">
+        <div class="top-text-box">
+            <h1>Welcome</h1>
+        </div>
+
+        <div class="create-button-box">
+            <button type="button" id="button">Create A Resource</button>
+        </div>
+    </div>
+
+
+    <!-- Resources Section -->
+    <div class="resources-section" id="resources-section">
+        <!-- <div class="resource">
+            <div class="name-of-website-and-delete-icon">
+                <a href="#">Name Of Website</a>
+                <i class="fa fa-trash" id="delete-icon"></i>
+            </div>
+
+            <div class="description-of-website-container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cumque culpa magnam unde, at accusamus quam!</p>
+            </div>
+        </div> -->
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal-container">
+        <div class="modal">
+            <div class="close-icon-box">
+                <i class="fa-solid fa-xmark" id="close-modal-icon"></i>
+            </div>
+
+            <div class="modal-title-box">
+                <h3>Create Resource</h3>
+            </div>
+
+            <div class="form-container">
+                <form id="form">
+
+                    <div class="input-group">
+                        <label for="name-of-website">Name Of Website</label>
+                        <input type="text" name="name-of-website" id="name-of-website" placeholder="e.g Data Analysis Website For NASA">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="link-of-website">Link Of Website</label>
+                        <input type="text" name="link-of-website" id="link-of-website" placeholder="www.link.com">
+                    </div>  
+                    
+                    <div class="input-group">
+                        <label for="description-of-website">Description Of Website</label>
+                        <textarea name="description-of-website" id="description-of-website" cols="30" rows="10" placeholder="Enter Description"></textarea>
+                    </div>
+
+                    <button type="submit" id="submitButton" class="form-button">Create</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
