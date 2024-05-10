@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+*,html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+body{
+    padding: 0 4rem;
+}
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    padding-top: 1rem;
+}
+
+.image_conatainer{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+.image_conatainer img{
+    width: 4rem;
+    height: 4rem;
+    border: 1px  solid #cdcdd2;;
+    border-radius: 0.5rem;
+}
+
+.hero_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_hero_section{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 1rem;
+    gap:2rem;
+}
+
+.left_hero_section h1{
+    font-size: 4.2rem;
+    color:#0b1d35;
+    /* color: rgb(55, 54, 54); */
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    
+
+}
+
+.left_hero_section p{
+    font-size: 2rem;
+    color: #a9a7a7;
+    text-align: left;
+}
+
+.left_hero_section a{
+    width: 100%;
+    background-color: #4c48f8;
+    color: #f8f8f8;
+    padding: 1.5rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.left_hero_section a:hover{
+    background-color:#7cb1ff;
+}
+
+.hero_image_container{
+    width: 42%;
+    height: auto;
+}
+
+.hero_image_container img{
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    
+}
+
+@media only screen and (max-width: 1000px){
+    .hero_section{
+        flex-direction: column-reverse;
+    }
+    .left_hero_section{
+        width: 100%;
+        height: auto;
+    }
+    .hero_image_container{
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+
+
+
+
+
+
+

@@ -137,7 +137,7 @@
 }
 
 .modal{
-    width: 30%;
+    width: 40%;
     height: auto;
     background-color: white;
     padding: 2rem;
@@ -155,7 +155,7 @@
     flex-direction: row;
     justify-content: end;
     align-items: center;
-    padding: 1rem 0;
+    
 }
 
 .close-icon-box i{
@@ -165,7 +165,7 @@
 .modal-title-box{
     width : 100%;
     height:auto ;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
 }
 
 .modal-title-box h3{
@@ -233,3 +233,19 @@ textarea{
     border-radius: 0.5rem;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 991px){
+    .modal{
+        width: 80%;
+    }
+
+    .resources-section {
+        flex-direction: column;
+    }
+
+    .resource{
+        width: 90%;
+    }
+    
+}
+
