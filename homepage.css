@@ -114,6 +114,10 @@ header{
         height: auto;
     }
 
+    body{
+        padding: 0 1.5rem;
+    }
+
 
 }
 
