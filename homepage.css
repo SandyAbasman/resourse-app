@@ -118,6 +118,15 @@ header{
         padding: 0 1.5rem;
     }
 
+    .left_hero_section h1{
+        font-size: 3.4rem;
+        
+    }
+
+    .left_hero_section p{
+        font-size: 1rem;
+    }
+
 
 }
 
